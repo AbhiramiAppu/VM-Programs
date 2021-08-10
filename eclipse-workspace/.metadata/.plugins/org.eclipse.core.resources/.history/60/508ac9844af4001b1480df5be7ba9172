@@ -1,0 +1,17 @@
+package abstraction;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		SearchAll a = new SearchAll();
+		Image i = new Image();
+		a.search();
+		a.message();
+		
+		i.search();
+		i.message();
+	
+	}
+
+}

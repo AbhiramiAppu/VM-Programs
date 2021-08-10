@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;finalconcept.ParentFinalMethod&apos; to &apos;ChildFinalMethod&apos;&#x0D;&#x0A;- Original project: &apos;Static and Final Keywords&apos;&#x0D;&#x0A;- Original element: &apos;finalconcept.ParentFinalMethod&apos;&#x0D;&#x0A;- Renamed element: &apos;finalconcept.ChildFinalMethod&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ParentFinalMethod&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;finalconcept{ParentFinalMethod.java[ParentFinalMethod" matchStrategy="1" name="ChildFinalMethod" qualified="false" references="true" similarDeclarations="false" stamp="1628247105688" textual="false" version="1.0"/>
+</session>

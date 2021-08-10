@@ -1,0 +1,27 @@
+package exception;
+
+public class MultipleCatchBlock {
+
+	public static void main(String[] args) {
+		
+		try
+		{
+			int a[] = new int[5];
+			a[0] = 1;
+			a[1] = 2;
+			a[2] = 3;
+			a[3] = 10/0;
+			a[4] = 4;
+			System.out.println("try block code");
+			
+		}
+		catch(ArithmeticException e) {
+			System.out.println("Occurred an Arithmetic Exception....Division by zero");
+		}
+		catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println("Occurred an Array Index Bound of Exception");
+		}
+
+	}
+
+}

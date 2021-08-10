@@ -1,0 +1,11 @@
+package Operators;
+
+public class AssignmentOperator {
+
+	public static void main(String[] args) {
+
+		int h = 80;
+		System.out.println("The value of h is : "+h);
+	}
+
+}

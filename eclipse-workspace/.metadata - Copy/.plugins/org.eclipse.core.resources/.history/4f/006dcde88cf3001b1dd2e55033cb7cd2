@@ -1,0 +1,14 @@
+package Operators;
+
+public class Unary {
+
+	public static void main(String[] args) {
+
+		int i = 10;
+		System.out.println("Value of i when i++ : "+ (i++));
+		System.out.println("Value of i when ++i : "+ (++i));
+		System.out.println("Value of i when i-- : "+ (i--));
+		System.out.println("Value of i when --i : "+ (--i));
+	}
+
+}

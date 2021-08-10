@@ -1,0 +1,10 @@
+
+public class Downcast {
+
+	public static void main(String[] args) {
+
+		Parent p = new Child();
+		
+	}
+
+}

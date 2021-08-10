@@ -1,0 +1,10 @@
+package polymorphism;
+
+public class Kerala {
+	
+	public void speaking() {
+		
+		System.out.println("I can speak Malayalam");
+	}
+
+}

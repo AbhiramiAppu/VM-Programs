@@ -1,0 +1,20 @@
+package wideningcasting;
+
+public class Widening {
+	
+
+	public static void main(String[] args) {
+		
+		int a = 7;
+		
+		//long l = a;
+		
+		double d = a;
+
+		
+		System.out.println("Before Widening casting the int value of a is "+a);
+		System.out.println("After Widening casting the double value of a is "+d);
+
+	}
+
+}

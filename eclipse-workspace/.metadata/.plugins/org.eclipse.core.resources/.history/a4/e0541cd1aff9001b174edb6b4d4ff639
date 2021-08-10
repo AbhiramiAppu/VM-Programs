@@ -1,0 +1,21 @@
+package arrayList;
+
+import java.util.ArrayList;
+
+public class ArrayListMethods {
+
+	public static void main(String[] args) {
+		ArrayList<String> cars = new ArrayList<>();
+		cars.add("Volvo");
+		cars.add("BMW");
+		cars.add("Ford");
+		cars.add("Audi");
+		System.out.println("The ArrayList elements are : "+cars);
+		System.out.println("The third element in the list is : "+cars.get(2));
+		cars.set(2,"Benz");
+		System.out.println("After setting , the array elements are : "+cars);
+	
+
+	}
+
+}

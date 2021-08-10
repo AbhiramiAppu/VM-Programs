@@ -1,0 +1,18 @@
+package typesofloops;
+
+public class Loops {
+
+	public static void main(String[] args) {
+
+		int num = 10;
+		int i = 0;
+		
+		System.out.println("The first 10 natural numbers are : ");
+		while(i <= num)
+		{
+			i++;
+			System.out.println(i);
+		}
+	}
+
+}
